@@ -1,0 +1,79 @@
+.body-container {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 72px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  line-height: 1.5em;
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+h1 {
+  font-size: 2.5em
+}
+
+h2 {
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: 'Interface';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("https://rsms.me/interface/font-files/Interface-Regular.woff2?v=1.2") format("woff2"),
+       url("https://rsms.me/interface/font-files/Interface-Regular.woff?v=1.2") format("woff");
+}
+@font-face {
+  font-family: 'Interface';
+  font-style:  italic;
+  font-weight: 400;
+  src: url("https://rsms.me/interface/font-files/Interface-RegularItalic.woff2?v=1.2") format("woff2"),
+       url("https://rsms.me/interface/font-files/Interface-RegularItalic.woff?v=1.2") format("woff");
+}
+
+@font-face {
+  font-family: 'Interface';
+  font-style:  normal;
+  font-weight: 500;
+  src: url("https://rsms.me/interface/font-files/Interface-Medium.woff2?v=1.2") format("woff2"),
+       url("https://rsms.me/interface/font-files/Interface-Medium.woff?v=1.2") format("woff");
+}
+@font-face {
+  font-family: 'Interface';
+  font-style:  italic;
+  font-weight: 500;
+  src: url("https://rsms.me/interface/font-files/Interface-MediumItalic.woff2?v=1.2") format("woff2"),
+       url("https://rsms.me/interface/font-files/Interface-MediumItalic.woff?v=1.2") format("woff");
+}
+
+@font-face {
+  font-family: 'Interface';
+  font-style:  normal;
+  font-weight: 700;
+  src: url("https://rsms.me/interface/font-files/Interface-Bold.woff2?v=1.2") format("woff2"),
+       url("https://rsms.me/interface/font-files/Interface-Bold.woff?v=1.2") format("woff");
+}
+@font-face {
+  font-family: 'Interface';
+  font-style:  italic;
+  font-weight: 700;
+  src: url("https://rsms.me/interface/font-files/Interface-BoldItalic.woff2?v=1.2") format("woff2"),
+       url("https://rsms.me/interface/font-files/Interface-BoldItalic.woff?v=1.2") format("woff");
+}
