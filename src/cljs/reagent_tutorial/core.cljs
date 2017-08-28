@@ -17,7 +17,7 @@
 
 (defn llama-page []
   [:div
-    [:h2 "A picture of a llama"]
+    [:h2 "A picture of a non-famous, but essential llama"]
     [:div [:img {:src "http://www.windmillanimalfarm.co.uk/gallery/llamas_02b.jpg
  "}]]
     [:div "Some plain text about a llama."]
@@ -29,7 +29,7 @@
                  :top "0px"
                  :width "100%"
                  :left "0px"
-                 :backgroundColor "black"
+                 :backgroundColor "green"
                  :color "white"
                  :font-family "Interface, sans-serif"
                  :font-weight "bold"

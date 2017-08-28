@@ -17,7 +17,7 @@
                   :scope "provided"]
                  [secretary "1.2.3"]
                  [proto-repl "0.3.1"]
-                 [proto-repl-charts "0.3.1"]
+                ;  [proto-repl-charts "0.3.1"]
                  [venantius/accountant "0.2.0"
                   :exclusions [org.clojure/tools.reader]]]
 

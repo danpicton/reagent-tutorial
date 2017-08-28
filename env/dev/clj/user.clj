@@ -1,7 +1,9 @@
 (ns user
   (:require [clojure.tools.namespace.repl :as tnr]
-            [prc]
-            [proto-repl.saved-values]))
+            ;[proto-repl-charts :as prc]
+            [proto-repl.saved-values]
+            [figwheel-sidecar.repl-api :as ra]
+            [clojure.repl :refer [doc source]]))
 
 (defn start
   []
@@ -11,4 +13,10 @@
 (defn reset []
   (tnr/refresh :after 'user/start))
 
-(println "proto-repl-demo dev/user.clj loaded.")
+(defn start-fig [] (ra/start-figwheel!))
+
+(defn stop-fig [] (ra/stop-figwheel!))
+
+(defn cljs [] (ra/cljs-repl "dev"))
+
+(println "reagent-tutorial/env/dev/user.clj loaded.")
